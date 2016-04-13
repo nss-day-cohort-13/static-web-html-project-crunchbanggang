@@ -3,6 +3,13 @@
 	display: ;
 }
 
+.social-icon {
+	width: 25px;
+	height: 25px;
+	margin: 15 15;
+	float: right;
+}
+
 nav {
 	text-align: right;
 }

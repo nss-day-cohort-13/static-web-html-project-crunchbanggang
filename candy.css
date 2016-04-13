@@ -1,0 +1,22 @@
+.headerOne {
+	text-align: center;
+	display: ;
+}
+
+nav {
+	text-align: right;
+}
+
+.logo {
+	text-align: left;
+}
+
+ul {
+	list-style-type: none;
+}
+
+li {
+	list-style-type: none;
+	display: inline;
+}
+

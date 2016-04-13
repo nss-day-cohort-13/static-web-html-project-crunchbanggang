@@ -1,0 +1,18 @@
+.employeeDiv {
+	width: 100%;
+}
+.firstColumn,
+.secondColumn {
+	float: left;
+	border: 1px solid black;
+	height: 170px;
+}
+.employeeDiv li {
+	display: inline-block;
+	width: 100%;
+}
+img {
+	height: 140px;
+}
+
+

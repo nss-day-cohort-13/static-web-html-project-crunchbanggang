@@ -1,3 +1,4 @@
+/*/////////////////////////////////////////////About Page///////////////////////////////////////////////////////*/
 #history img {
 	padding-top: 30px;
 	padding-bottom: 45px;
@@ -37,4 +38,26 @@
 	font-family: 'Libre Baskerville', serif;
 	font-size: 18px;
 	margin: 0px 170px 50px 170px;
+}
+
+
+/*/////////////////////////////////////////////Job Listings///////////////////////////////////////////////////////*/
+
+#listings h1 {
+	text-align: center;
+}
+
+#listings img {
+	display: block;
+    margin: 0 auto;
+}
+
+#listings p {
+	text-align: center;
+}
+
+#listings ul li {
+	text-align: center;
+	list-style: none;
+	padding: 10px;
 }

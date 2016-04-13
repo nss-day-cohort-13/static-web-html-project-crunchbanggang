@@ -1,0 +1,130 @@
+/* HOME/Products PAGE */
+
+/* .homebackgroundimg {
+	background: url("images/crunchBangCandyStore.jpg") no-repeat center center fixed;
+	background-size: cover;
+
+}
+
+.cardimg {
+	border: 1px solid pink;
+	display: inline-block;
+	box-sizing: border-box;
+	width: auto;
+
+}
+
+.carddescription {
+	border: 1px solid pink;
+	width: 20%;
+	display: inline-block;
+	background-color: white;
+	box-sizing: border-box;
+
+}
+
+ .combodiv {
+	width: 48%;
+	display: inline;
+	border: 1px solid pink;
+	box-sizing: border-box;
+}
+
+.productimg {
+	max-height: 150px;
+}
+*/
+
+body {
+	text-align: center;
+}
+
+.combodiv {
+	margin: 0 auto;
+	text-align: center;
+	border: solid pink 1px;
+	padding: 20px;
+	display: inline-flex;
+}
+
+.productimg {
+	width: 250px;
+	height: 215px;
+	border: solid pink 1px;
+}
+
+.cardimg {
+	display: inline-block;
+	border: solid pink 1px;
+}
+
+.carddescription {
+	display: inline-block ;
+	border: solid pink 1px;
+	width: 250px;
+	margin: 0 10px;
+}
+
+
+
+
+
+
+
+/* About Page
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Employees Page */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Careers Page */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,7 +1,9 @@
+//variable declarations
 var employeeNum;
 var employeeObject;
 var employeeObjects;
 var cardDiv;
+//employee objects
 var employee_0 = {
 	image: "images/andrew.jpg",
 	name: "Andrew Meyers",
@@ -31,6 +33,7 @@ var employee_3 = {
 	email: "melissa.carlton@crunchbangang.com"
 }
 var employees = [employee_0, employee_1, employee_2, employee_3];
+//writes employee information to the DOM
 var cardCreator = function(image, name, title, phone, email) {
 cardDiv.innerHTML = ('<div class="employeeDiv">'+
 							'<div class=firstColumn>'+
@@ -49,7 +52,7 @@ cardDiv.innerHTML = ('<div class="employeeDiv">'+
 							'</div>'+
 						'</div>');
 }
-
+//main for loop cycles through employee objects and selects corresponding div in html
 for (var i = 0; i < 4; i++) {
 	employeeNum = ("employeeDiv_"+i);
 	employeeObject = employees[i];

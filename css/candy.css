@@ -1,3 +1,57 @@
+/************************Employee Page*********************/
+* {
+	list-style: none;
+}
+
+.employeeDiv {
+	width: 100%;
+	clear: both;
+}
+
+.employeeDiv div {
+	display: inline-block;
+	float: left;
+	border: 1px solid black;
+	height: 150px;
+}
+
+.firstColumn {
+	width: 150px;
+	margin-top: 15px;
+	margin-left: 15px;
+}
+
+.secondColumn {
+	width: 300px;
+	margin-top: 15px;
+}
+
+.employeeDiv li {
+	width: 100%;
+}
+
+.secondColumn li {
+	margin-left: 15px;
+}
+
+.employeePic img {
+	width: 100%; ;
+	margin: 0;
+}
+
+.employeeName h2 {
+	margin: 15px 0;
+}
+
+.employeeTitle h3 {
+	margin: 15px 0;
+}
+
+.employeePhone p,
+.employeeEmail p {
+	margin: 10px 0;
+}
+
 #history img {
 	padding-top: 30px;
 	padding-bottom: 45px;
@@ -38,3 +92,4 @@
 	font-size: 18px;
 	margin: 0px 170px 50px 170px;
 }
+

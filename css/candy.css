@@ -40,7 +40,6 @@
 	margin: 0px 170px 50px 170px;
 }
 
-
 /*/////////////////////////////////////////////Job Listings///////////////////////////////////////////////////////*/
 
 #listings h1 {
@@ -50,14 +49,20 @@
 #listings img {
 	display: block;
     margin: 0 auto;
+    padding-bottom: 30px;
+    border-radius: 50%;
 }
 
 #listings p {
-	text-align: center;
+	padding: 0px 170px;
+	font-family: 'Libre Baskerville', serif;
+	font-size: 18px;
 }
 
 #listings ul li {
 	text-align: center;
 	list-style: none;
+	font-size: 20px;
+	font-family: 'Varela Round', sans-serif;	font-weight: 400;
 	padding: 10px;
 }

@@ -1,0 +1,105 @@
+* {
+	box-sizing: border-box;
+}
+
+.headerOne {
+	text-align: center;
+	display: ;
+}
+
+.social-icon {
+	width: 25px;
+	height: 25px;
+	margin: 15 15;
+	float: right;
+}
+
+nav {
+	text-align: right;
+	background-color: #ff4d94;
+	padding: 1% 10%;
+	margin: 1% 10%;
+}
+
+a {
+	color: #fff;
+}
+
+nav a, nav a:visited {
+	color: #000;
+}
+
+nav a.selected, nav a:hover{
+	color: #6600ff;
+}
+
+.logo {
+	text-align: left;
+	border-style: ;
+	margin-bottom: 2px;
+	padding-bottom: 1px;
+	float: left;
+	color: #fff;
+	height: 55px;
+
+
+}
+
+.logo img {
+	height :50px;
+	padding-bottom: 5px;
+	vertical-align: center;
+}
+
+ul {
+	list-style-type: none;
+}
+
+li {
+	list-style-type: none;
+	display: inline;
+}
+
+body {
+	background-color: #ccffee;
+	background-image: auto;
+	background-size: 110%;
+}
+
+
+
+
+h1 {
+	font-family: 'Rambla', sans-serif;
+	text-align: center;
+	color: #fff;
+}
+
+.intro	{
+	text-align: center;
+	font-family: 'Rambla', sans-serif;
+	color: #fff;
+}
+
+h3 {
+	font-family: 'Rambla', sans-serif;
+	color: #fff;
+}
+
+
+
+footer	{
+	text-align: center;
+	color: #fff;
+}
+
+.careers {
+	text-align: center;
+}
+
+footer a.careers, footer a:hover{
+	color: #6600ff;
+}
+
+
+

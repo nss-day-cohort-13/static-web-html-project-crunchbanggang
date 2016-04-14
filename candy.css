@@ -7,6 +7,13 @@
 	clear: both;
 }
 
+.employeeDiv div {
+	display: inline-block;
+	float: left;
+	border: 1px solid black;
+	height: 150px;
+}
+
 .firstColumn {
 	width: 150px;
 	margin-top: 15px;
@@ -18,19 +25,12 @@
 	margin-top: 15px;
 }
 
-.secondColumn li {
-	margin-left: 15px;
-}
-
-.employeeDiv div {
-	display: inline-block;
-	float: left;
-	border: 1px solid black;
-	height: 150px;
-}
-
 .employeeDiv li {
 	width: 100%;
+}
+
+.secondColumn li {
+	margin-left: 15px;
 }
 
 .employeePic img {

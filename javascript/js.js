@@ -53,7 +53,7 @@ cardDiv.innerHTML = ('<div class="employeeDiv">'+
 						'</div>');
 }
 //main for loop cycles through employee objects and selects corresponding div in html
-for (var i = 0; i < 4; i++) {
+for (var i = 0; i < employees.length; i++) {
 	employeeNum = ("employeeDiv_"+i);
 	employeeObject = employees[i];
 	cardDiv = document.getElementById(employeeNum);

@@ -1,3 +1,4 @@
+
 * {
 	box-sizing: border-box;
 }
@@ -103,3 +104,203 @@ footer a.careers, footer a:hover{
 
 
 
+/* //////////////////////////////HOME/Products PAGE ////////////////////////////////////////*/
+
+/*.homebackgroundimg {
+	background: url("images/crunchBangCandyStore.jpg") no-repeat center center fixed;
+	background-size: cover;
+
+}*/
+body {
+	text-align: center;
+}
+#combodiv {
+	width: 90%;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.product {
+	float: left;
+	margin-bottom: 10px;
+}
+
+.productimg {
+	width: 253px;
+	height: 249px;
+	display: inline-block;
+	overflow: hidden;
+	float: left;
+}
+
+.carddescription {
+	display: inline-block ;
+	width: 250px;
+	height: 249px;
+	background-color: beige;
+	text-align: justify;
+	padding: 20px;
+	box-sizing: border-box;
+
+}
+
+.carddescription h2 {
+	text-align: center;
+	color: black;
+	font-size: 20px;
+	margin-top: 0;
+}
+
+.carddescription p {
+	color: black;
+	font-size: 12px;
+	text-align: center;
+}
+
+.carddescription div {
+	text-align: center;
+}
+
+.carddescription h4{
+	font-size: 10px;
+	text-align: center;
+}
+
+input[type="button"] {
+	border-radius: 7px;
+
+}
+
+.button {
+	text-align:center;
+}
+
+img {
+	width: auto;
+	height: 249px;
+}
+
+
+/************************Employee Page*********************/
+* {
+	list-style: none;
+}
+
+.employeeDiv {
+	width: 100%;
+	clear: both;
+}
+
+.employeeDiv div {
+	display: inline-block;
+	float: left;
+	border: 1px solid black;
+	height: 150px;
+}
+
+.firstColumn {
+	width: 150px;
+	margin-top: 15px;
+	margin-left: 15px;
+}
+
+.secondColumn {
+	width: 300px;
+	margin-top: 15px;
+}
+
+.employeeDiv li {
+	width: 100%;
+}
+
+.secondColumn li {
+	margin-left: 15px;
+}
+
+.employeePic img {
+	width: 100%; ;
+	margin: 0;
+}
+
+.employeeName h2 {
+	margin: 15px 0;
+}
+
+.employeeTitle h3 {
+	margin: 15px 0;
+}
+
+.employeePhone p,
+.employeeEmail p {
+	margin: 10px 0;
+}
+
+/*/////////////////////////////////////////////About Page///////////////////////////////////////////////////////*/
+
+#history img {
+	padding-top: 30px;
+	padding-bottom: 45px;
+	display: block;
+    margin: 0 auto;
+}
+
+#history h1 {
+	text-align: center;
+	font-family: 'Raleway', sans-serif;
+	margin: 0px 65px;
+}
+
+#history p {
+	margin: 0px 200px 30px 200px;
+	padding-bottom: 25px;
+	font-family: 'Varela Round', sans-serif;	font-weight: 400;
+}
+
+.styleBorderBox {
+	display: block;
+	margin: 0 auto;
+	margin-top: 50px;
+	width: 375px;
+	border-bottom: 2px solid brown;
+	margin-bottom: 25px;
+}
+
+#mission img {
+	padding-top: 20px;
+	/*padding-bottom: 50px;*/
+	display: block;
+    margin: 0 auto;
+}
+
+#mission p {
+	font-family: 'Libre Baskerville', serif;
+	font-size: 18px;
+	margin: 0px 170px 50px 170px;
+}
+
+/*/////////////////////////////////////////////Job Listings///////////////////////////////////////////////////////*/
+
+#listings h1 {
+	text-align: center;
+}
+
+#listings img {
+	display: block;
+    margin: 0 auto;
+    padding-bottom: 30px;
+    border-radius: 50%;
+}
+
+#listings p {
+	padding: 0px 170px;
+	font-family: 'Libre Baskerville', serif;
+	font-size: 18px;
+}
+
+#listings ul li {
+	text-align: center;
+	list-style: none;
+	font-size: 20px;
+	font-family: 'Varela Round', sans-serif;	font-weight: 400;
+	padding: 10px;
+}
